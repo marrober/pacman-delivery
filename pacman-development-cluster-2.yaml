@@ -32,7 +32,7 @@ spec:
   source:
     path: deployment/
     targetRevision: rel-cluster-2
-    repoURL: https://github.com/marrober/helm-deployments.git
+    repoURL: https://github.com/marrober/pacman-delivery.git
   syncPolicy:
     automated: 
       prune: true 
