@@ -12,7 +12,7 @@ spec:
   destinations:
   - server: https://kubernetes.default.svc
     namespace: '*'
-  - server: https://api.cluster-1.sandbox2406.opentlc.com:6443
+  - server: https://api.cluster-1.sandbox1593.opentlc.com:6443
     namespace: '*'
 
   clusterResourceWhitelist:
