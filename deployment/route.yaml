@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: pacman-route
-  namespace: progressive-branch
+  namespace: pacman-branched-delivery
 spec:
   path: /
   to:

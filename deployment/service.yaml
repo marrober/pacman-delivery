@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: pacman
-  namespace: progressive-branch
+  namespace: pacman-branched-delivery
   labels:
     app.kubernetes.io/instance: pacman-dev
     app.kubernetes.io/name: pacman
