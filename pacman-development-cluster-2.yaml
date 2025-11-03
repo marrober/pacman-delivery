@@ -31,7 +31,7 @@ spec:
       kind: Route
   source:
     path: deployment/
-    targetRevision: main
+    targetRevision: rel-cluster-2
     repoURL: https://github.com/marrober/helm-deployments.git
   syncPolicy:
     automated: 
