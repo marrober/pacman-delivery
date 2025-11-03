@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: progressive-pacman
+  name: pacman-branched-delivery
   annotations:
     argocd.argoproj.io/sync-wave: "1"
   namespace: openshift-gitops
