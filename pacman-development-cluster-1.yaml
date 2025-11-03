@@ -48,10 +48,4 @@ spec:
       backoff:
         duration: 5s 
         factor: 2 
-        maxDuration: 20s
-    retry:
-      limit: 1 
-      backoff:
-        duration: 5s 
-        factor: 2 
         maxDuration: 20s 
