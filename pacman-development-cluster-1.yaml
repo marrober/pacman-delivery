@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: progressive-pacman-01-cluster-1
+  name: pacman-01-cluster-1
   namespace: openshift-gitops
 spec:
-  project: progressive-pacman
+  project: pacman-branched-delivery
   destination:
     namespace: openshift-gitops
     server: https://api.cluster-1.sandbox2406.opentlc.com:6443
@@ -31,7 +31,7 @@ spec:
       kind: Route
   source:
     path: deployment/
-    targetRevision: main
+    targetRevision: rel-cluster-1
     repoURL: https://github.com/marrober/helm-deployments.git
   syncPolicy:
     automated: 
